@@ -11,6 +11,7 @@ export TERM='screen-256color'
 # for the crazy tmux powerline that i've spent way too much time on. hits
 # weather.yahoo.com and uses the last bit of digits to pull the weather
 export TMUX_POWERLINE_SEG_WEATHER_LOCATION="12770529"
+export XDG_CONFIG_HOME="~/.config"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
