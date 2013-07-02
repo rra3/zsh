@@ -71,4 +71,3 @@ function njs {
   local nodestat=${$(curl http://nodejs.careerleap.com/heartbeat 2> /dev/null):-1)}
   if [ $nodestat=0 ]; then echo node is UP; else echo node is DOWN; fi
 }
-export HIPCHAT_TOKEN=dc745f89ee49fff5db479eafb1a0f2
